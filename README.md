@@ -8,8 +8,6 @@ list=$(ls)
 
 for i in $list
 do
-
-  # Set '-' as the delimiter
   IFS='-'
   
   read -a strarr <<< "$i"
